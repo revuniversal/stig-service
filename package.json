@@ -1,0 +1,19 @@
+{
+  "name": "stig-service",
+  "version": "0.1.0",
+  "description": "Back-end STIG aggregation service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpdillingham/stig-service.git"
+  },
+  "author": "Q-C Coders",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jpdillingham/stig-service/issues"
+  },
+  "homepage": "https://github.com/jpdillingham/stig-service#readme"
+}
