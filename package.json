@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jpdillingham/stig-service/issues"
   },
-  "homepage": "https://github.com/jpdillingham/stig-service#readme"
+  "homepage": "https://github.com/jpdillingham/stig-service#readme",
+  "dependencies": {
+    "axios": "^0.16.1"
+  }
 }
