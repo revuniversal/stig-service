@@ -4,7 +4,10 @@
   "description": "Back-end STIG aggregation service",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build:live",
+    "once": "ts-node ./src/app.ts",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/app.ts"
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,17 @@
   },
   "homepage": "https://github.com/jpdillingham/stig-service#readme",
   "dependencies": {
-    "axios": "^0.16.1"
+    "axios": "^0.16.1",
+    "cheerio": "^1.0.0-rc.1",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/cheerio": "^0.22.1",
+    "@types/lodash": "^4.14.65",
+    "@types/node": "^7.0.29",
+    "nodemon": "^1.11.0",
+    "ts-node": "^3.0.6",
+    "typescript": "^2.3.4"
   }
 }
