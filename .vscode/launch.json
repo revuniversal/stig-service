@@ -11,7 +11,7 @@
       "program": "${workspaceRoot}/src/app.ts",
       "outFiles": [
         "${workspaceRoot}/bin/*.js",
-        "${workspaceRoot}/bin/**/*.js",
+        "${workspaceRoot}/bin/**/*.js"
       ],
       "sourceMaps": true
     }
