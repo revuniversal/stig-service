@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run build:live",
     "once": "ts-node ./src/app.ts",
+    "compile": "tsc",
     "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/app.ts"
   },
   "repository": {

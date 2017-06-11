@@ -13,7 +13,8 @@
         "${workspaceRoot}/bin/*.js",
         "${workspaceRoot}/bin/**/*.js"
       ],
-      "sourceMaps": true
+      "sourceMaps": true,
+      "preLaunchTask": "compile"
     }
   ]
 }
